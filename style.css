@@ -1,0 +1,132 @@
+body 	{
+		background:#3EFFF9;
+		background-repeat:repeat;
+		
+		margin:0px;
+		}  
+#navi {	
+		float:right;
+		max-width:700px;
+		width:90%;
+		margin:30px 0;
+		}
+	
+.box {
+		font-family: MuseoSans,Arial,sans-serif;
+		font-size:1.25rem;
+		font-weight:500;
+		line-height:1.25rem;
+		width:60%;
+		max-width:130px;
+		text-align:center;
+		border:3px solid #333;
+		border-radius:4px;
+		padding:5px;
+		float:left;
+		margin:0.2%;
+		min-width:90px;
+		}
+.box a {
+		text-decoration:none;
+		color:#333;
+		text-transform:uppercase;
+		padding:4px 0px;
+		
+		}
+.box:hover {
+		background-color:#333 !important;
+		transition:0.4s background-color !important;
+		}
+.box:hover a{
+		color:#8ACDCB !important;
+		transition:0.4s color !important;
+		text-decoration:none !important;
+		}
+
+.clear {
+		clear:both;
+		}
+nav {
+		float:right;
+		margin:2% 5%;
+		max-width:500px;
+		width:90%;
+		
+		}		
+nav ul {
+		list-style:none;
+		text-transform:uppercase;
+		padding:0px;
+		height:auto;
+		margin-bottom:0px;
+		}
+
+nav ul li{
+		margin:5px 3%;
+		display:inline;
+		}
+nav ul li a {color:white;
+		font-family: MuseoSans,Arial,sans-serif;
+		font-size:1.25rem;
+		font-weight:500;
+		line-height:1.25rem;
+		text-decoration:none;
+		
+		
+		}
+nav ul li a:hover {
+		transition:0.5s color;
+		color:#333;
+		}
+header{
+		max-height:130px;
+		height:90%;
+		position:fixed;
+		width:100%;
+		background-color:rgba(0,0,0,0.8);
+		z-index:99;
+		
+		}
+#slide {
+		position:relative;
+		top:130px;
+		}
+.none {
+		display:none;
+		}
+#about {
+		width:50px;
+		height:50px;
+		margin-bottom:100px;
+		}
+#web-design {
+		width:50px;
+		height:50px;
+		margin-bottom:100px;
+		}
+.title {
+		z-index:100;
+		text-align:center;
+		
+		}
+.title h2 {font-family: MuseoSans,Arial,sans-serif;
+		font-size:1.25rem;
+		font-weight:700;
+		line-height:1.25rem;
+		margin:0px;
+		color:#333;
+		
+		}
+.page {
+		width:100%;
+		margin:0 auto;
+		height:100%;
+		max-height:421px;
+		
+		
+		}
+.rounded li .right {border-radius:50%;width:150px;height:150px;}
+.rounded li .left {border-radius:50%;width:150px;height:150px;}
+.rounded li {display:inline;margin:5px 2%;position:relative;}
+.rounded li span{position:absolute;top:30px;right:32px;}
+.rounded {list-style:none;text-align:center;padding:0px;}
